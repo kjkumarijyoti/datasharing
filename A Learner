@@ -1,0 +1,17 @@
+//c++ program for swapping
+#include<iostream>
+using namespace std;
+int main()
+{
+  int a ,b,temp;
+  a=7;b=9;
+  cout<<"Before swapping";
+  cout<<"a="<<a<<endl<<"b="<<b;
+  temp=a;
+  a=b;
+  b=temp;
+  cout<<"After swapping";
+  cout<<"a="<<a<<endl<<"b="<<b;
+  return 0;
+  getch();
+ } 
